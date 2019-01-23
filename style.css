@@ -1,0 +1,108 @@
+/* Universal Styling */
+
+.card {
+  box-shadow: 1px 1px gray;
+}
+
+
+.link:hover {
+  opacity: .5;
+  transition-duration: .5s;
+}
+
+.nav-link:hover  {
+  transition-duration: .5s;
+}
+
+/* Landing Image Section */
+
+.landing-card {
+  align-self: auto;
+}
+
+.landing-img  {
+  opacity: .4;
+  height: 58rem;
+  position: center;
+}
+
+.heading-main {
+  margin-top: 20%;
+  font-size: 5rem;
+  text-shadow: 2px 2px black;
+}
+
+.heading-second {
+  font-size: 2.75rem;
+  text-shadow: 2px 2px black;
+}
+
+.heading-third  {
+  font-size: 1.35rem;
+  text-shadow: 2px 2px black;
+}
+
+/* Bio Section */
+
+.bio-heading  {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px lightgrey;
+}
+
+.about-me-pic {
+  border-radius: 35%;
+}
+
+/* Website Section */
+
+
+.website-heading  {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px lightgrey;
+}
+
+/* JavaScript Section */
+
+
+.javascript-heading {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px lightgrey;
+}
+
+
+
+/* Media Rules */
+
+@media only screen and (max-width: 480px) {
+  /*Margin for cards */
+  .website-card {
+    margin-top: .5rem;
+  }
+/* Responsive landing image */
+  .landing-img  {
+    max-width: 100%;
+    height: auto;
+  }
+/* Font size landing */
+  .heading-main {
+    margin-top: 5%;
+    font-size: 2rem;
+    text-shadow: 1px 1px black;
+  }
+  
+  .heading-second {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px black;
+  }
+  
+  .heading-third  {
+    font-size: 1rem;
+    text-shadow: 1px 1px black;
+  }
+/* About me pic responsive */
+  .about-me-pic {
+    max-width: 100%;
+    height: auto;
+  }
+  
+}
